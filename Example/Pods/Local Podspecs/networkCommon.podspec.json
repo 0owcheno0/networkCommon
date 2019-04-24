@@ -1,0 +1,31 @@
+{
+  "name": "networkCommon",
+  "version": "0.0.1",
+  "summary": "网络请求基础方法",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/0owcheno0/networkCommon",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wchen": "1026655179@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/0owcheno0/networkCommon.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "networkCommon/Classes/**/*",
+  "frameworks": "MobileCoreServices",
+  "dependencies": {
+    "SwiftyJSON": [
+      "~> 4.0.0"
+    ],
+    "Alamofire": [
+      "~> 4.7.0"
+    ]
+  }
+}
