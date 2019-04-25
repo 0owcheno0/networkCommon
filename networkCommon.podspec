@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'networkCommon'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = '网络请求基础方法'
   s.swift_version    = '4.0'
 
