@@ -37,7 +37,7 @@ TODO: Add long description of the pod here.
   #   'networkCommon' => ['networkCommon/Assets/*.png']
   # }
 
-  s.public_header_files = 'Pod/Classes/**/*.swift'
+  # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'MobileCoreServices'
   s.dependency 'SwiftyJSON', '~> 4.0'
   s.dependency 'Alamofire', '~> 4.7.0'
