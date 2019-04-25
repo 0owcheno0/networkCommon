@@ -1,6 +1,6 @@
 {
   "name": "networkCommon",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "网络请求基础方法",
   "swift_version": "4.0",
   "description": "TODO: Add long description of the pod here.",
@@ -14,16 +14,17 @@
   },
   "source": {
     "git": "https://github.com/0owcheno0/networkCommon.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "networkCommon/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.swift",
   "frameworks": "MobileCoreServices",
   "dependencies": {
     "SwiftyJSON": [
-      "~> 4.0.0"
+      "~> 4.0"
     ],
     "Alamofire": [
       "~> 4.7.0"
